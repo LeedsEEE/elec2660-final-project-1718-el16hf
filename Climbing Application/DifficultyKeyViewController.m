@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  DifficultyKeyViewController.m
 //  Climbing Application
 //
 //  Created by Harry Frankish [el16hf] on 20/11/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "DifficultyKeyViewController.h"
 
-@interface FirstViewController ()
+@interface DifficultyKeyViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation DifficultyKeyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

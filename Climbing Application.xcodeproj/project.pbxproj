@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FEAAB95E1FC30E49002D20DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB95D1FC30E49002D20DA /* main.m */; };
 		FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9601FC30E49002D20DA /* AppDelegate.m */; };
-		FEAAB9641FC30E49002D20DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9631FC30E49002D20DA /* FirstViewController.m */; };
+		FEAAB9641FC30E49002D20DA /* DifficultyKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */; };
 		FEAAB9671FC30E49002D20DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9661FC30E49002D20DA /* SecondViewController.m */; };
 		FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB9681FC30E49002D20DA /* Main.storyboard */; };
 		FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB96B1FC30E49002D20DA /* Assets.xcassets */; };
@@ -40,8 +40,8 @@
 		FEAAB95D1FC30E49002D20DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEAAB95F1FC30E49002D20DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEAAB9601FC30E49002D20DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEAAB9621FC30E49002D20DA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FEAAB9631FC30E49002D20DA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FEAAB9621FC30E49002D20DA /* DifficultyKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyKeyViewController.h; sourceTree = "<group>"; };
+		FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyKeyViewController.m; sourceTree = "<group>"; };
 		FEAAB9651FC30E49002D20DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FEAAB9661FC30E49002D20DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FEAAB9691FC30E49002D20DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 			children = (
 				FEAAB95F1FC30E49002D20DA /* AppDelegate.h */,
 				FEAAB9601FC30E49002D20DA /* AppDelegate.m */,
-				FEAAB9621FC30E49002D20DA /* FirstViewController.h */,
-				FEAAB9631FC30E49002D20DA /* FirstViewController.m */,
+				FEAAB9621FC30E49002D20DA /* DifficultyKeyViewController.h */,
+				FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */,
 				FEAAB9651FC30E49002D20DA /* SecondViewController.h */,
 				FEAAB9661FC30E49002D20DA /* SecondViewController.m */,
 				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
@@ -280,7 +280,7 @@
 			files = (
 				FEAAB9671FC30E49002D20DA /* SecondViewController.m in Sources */,
 				FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */,
-				FEAAB9641FC30E49002D20DA /* FirstViewController.m in Sources */,
+				FEAAB9641FC30E49002D20DA /* DifficultyKeyViewController.m in Sources */,
 				FEAAB95E1FC30E49002D20DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +513,7 @@
 				FEAAB98B1FC30E49002D20DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEAAB98C1FC30E49002D20DA /* Build configuration list for PBXNativeTarget "Climbing ApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				FEAAB98E1FC30E49002D20DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEAAB98F1FC30E49002D20DA /* Build configuration list for PBXNativeTarget "Climbing ApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				FEAAB9911FC30E49002D20DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
