@@ -47,19 +47,38 @@
         <!--Routes-->
         <scene sceneID="8PQ-BB-rdc">
             <objects>
-                <tableViewController id="Ddy-2b-TOc" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="UlW-Jm-8vQ">
+                <tableViewController id="Ddy-2b-TOc" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="28" sectionFooterHeight="28" id="UlW-Jm-8vQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Zon-bO-2eT">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RouteCell" textLabel="LZS-8j-qKH" detailTextLabel="Gmg-Mb-AbR" rowHeight="30" style="IBUITableViewCellStyleValue2" id="Zon-bO-2eT">
+                                <rect key="frame" x="0.0" y="92" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zon-bO-2eT" id="2Gi-fc-dit">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="30"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LZS-8j-qKH">
+                                            <frame key="frameInset" minX="15" minY="7" width="91" height="16"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gmg-Mb-AbR">
+                                            <frame key="frameInset" minX="112" minY="7" width="35" height="16"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Mw5-ld-Svg" kind="show" identifier="ShowRouteDetails" trigger="accessoryAction" id="2E2-7W-7v2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -71,7 +90,48 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ney-hu-ixe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="-735"/>
+            <point key="canvasLocation" x="797.60000000000002" y="-735.38230884557731"/>
+        </scene>
+        <!--Route View Controller-->
+        <scene sceneID="3vW-zJ-PuG">
+            <objects>
+                <viewController id="Mw5-ld-Svg" customClass="RouteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0qD-FC-cMC"/>
+                        <viewControllerLayoutGuide type="bottom" id="QG9-cA-MoS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xEs-oZ-LqJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="routeNumberLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL5-Rf-qCD">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-NF-SJ3">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="3yz-FP-Uvt"/>
+                                    <constraint firstAttribute="height" constant="187" id="dZD-c0-4V6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jL5-Rf-qCD" firstAttribute="top" secondItem="0qD-FC-cMC" secondAttribute="bottom" constant="16" id="17m-jF-w93"/>
+                            <constraint firstItem="HR0-NF-SJ3" firstAttribute="top" secondItem="jL5-Rf-qCD" secondAttribute="bottom" constant="16" id="Wo0-Rb-KaQ"/>
+                            <constraint firstItem="jL5-Rf-qCD" firstAttribute="centerX" secondItem="xEs-oZ-LqJ" secondAttribute="centerX" id="mbB-VO-ZMc"/>
+                            <constraint firstItem="HR0-NF-SJ3" firstAttribute="centerX" secondItem="xEs-oZ-LqJ" secondAttribute="centerX" id="mxb-Y3-HCE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="RouteLocationImage" destination="HR0-NF-SJ3" id="ACA-sw-3Fz"/>
+                        <outlet property="RouteNumberLabel" destination="jL5-Rf-qCD" id="t9i-Mt-mxN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rcj-Oz-CZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1568.8" y="-735.38230884557731"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="wg7-f3-ORb">
