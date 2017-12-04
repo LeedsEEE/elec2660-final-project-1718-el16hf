@@ -53,7 +53,14 @@
     if(indexPath.section == 0){ //Green Routes
         Route *tempRoute = [self.data.greenRoutes objectAtIndex:indexPath.row];
         cell.textLabel.text = tempRoute.routenumber;
-        cell.detailTextLabel.text = @"hhg";
+        cell.detailTextLabel.text = @" ";
+        if (tempRoute.routeCompletedStatus == true) {
+            cell.imageView.image = [UIImage imageNamed:@"TickIcon.png"];
+        }
+        else {
+            cell.imageView.image = [UIImage imageNamed:@"WhiteTickIcon.png"];
+        }
+   
     }
     
     

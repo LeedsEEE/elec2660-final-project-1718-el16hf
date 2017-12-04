@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  StatisticsViewController.h
 //  Climbing Application
 //
 //  Created by Harry Frankish [el16hf] on 20/11/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface StatisticsViewController : UIViewController
 
 
 @end

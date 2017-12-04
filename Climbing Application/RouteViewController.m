@@ -19,6 +19,12 @@
     // Do any additional setup after loading the view.
     self.RouteNumberLabel.text = self.route.routenumber;
     self.RouteLocationImage.image = [UIImage imageNamed:self.route.routelocation ];
+    self.RouteSwitchSetStatus.on = self.route.routeCompletedStatus;
+    if (_RouteSwitchSetStatus.on) {
+        self.RouteStatusLabel.text = @"Completed";
+    } else {
+        self.RouteStatusLabel.text = @"Incomplete";
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,4 +42,11 @@
 }
 */
 
+- (IBAction)RouteStatusSwitch:(UISwitch *)sender {
+    if (sender.on) {
+        self.RouteStatusLabel.text = @"Completed";
+    } else {
+        self.RouteStatusLabel.text = @"Incomplete";
+    }
+}
 @end

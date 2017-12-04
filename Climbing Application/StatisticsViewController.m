@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  StatisticsViewController.m
 //  Climbing Application
 //
 //  Created by Harry Frankish [el16hf] on 20/11/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "StatisticsViewController.h"
 
-@interface SecondViewController ()
+@interface StatisticsViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation StatisticsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

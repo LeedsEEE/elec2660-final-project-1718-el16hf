@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */; };
+		FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */; };
 		FEAAB95E1FC30E49002D20DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB95D1FC30E49002D20DA /* main.m */; };
 		FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9601FC30E49002D20DA /* AppDelegate.m */; };
 		FEAAB9641FC30E49002D20DA /* DifficultyKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */; };
-		FEAAB9671FC30E49002D20DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9661FC30E49002D20DA /* SecondViewController.m */; };
+		FEAAB9671FC30E49002D20DA /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB9661FC30E49002D20DA /* StatisticsViewController.m */; };
 		FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB9681FC30E49002D20DA /* Main.storyboard */; };
 		FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB96B1FC30E49002D20DA /* Assets.xcassets */; };
 		FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB96D1FC30E49002D20DA /* LaunchScreen.storyboard */; };
@@ -21,6 +23,7 @@
 		FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEC6F6251FCD9A7300C072D9 /* Test image.jpg */; };
 		FEC6F6291FCD9DBC00C072D9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */; };
 		FEC6F62C1FCDA80400C072D9 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */; };
+		FED158E31FD1A972003E9E86 /* RouteCompletedStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FED158E21FD1A972003E9E86 /* RouteCompletedStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickIcon.png; sourceTree = "<group>"; };
+		FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTickIcon.png; sourceTree = "<group>"; };
 		FEAAB9591FC30E49002D20DA /* Climbing Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climbing Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAAB95D1FC30E49002D20DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEAAB95F1FC30E49002D20DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEAAB9601FC30E49002D20DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FEAAB9621FC30E49002D20DA /* DifficultyKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyKeyViewController.h; sourceTree = "<group>"; };
 		FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyKeyViewController.m; sourceTree = "<group>"; };
-		FEAAB9651FC30E49002D20DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FEAAB9661FC30E49002D20DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FEAAB9651FC30E49002D20DA /* StatisticsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		FEAAB9661FC30E49002D20DA /* StatisticsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
 		FEAAB9691FC30E49002D20DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEAAB96B1FC30E49002D20DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEAAB96E1FC30E49002D20DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +73,8 @@
 		FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		FEC6F62A1FCDA80400C072D9 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
 		FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		FED158E11FD1A972003E9E86 /* RouteCompletedStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteCompletedStatus.h; sourceTree = "<group>"; };
+		FED158E21FD1A972003E9E86 /* RouteCompletedStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteCompletedStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,21 +129,25 @@
 				FEAAB9601FC30E49002D20DA /* AppDelegate.m */,
 				FEAAB9621FC30E49002D20DA /* DifficultyKeyViewController.h */,
 				FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */,
-				FEAAB9651FC30E49002D20DA /* SecondViewController.h */,
-				FEAAB9661FC30E49002D20DA /* SecondViewController.m */,
+				FEAAB9651FC30E49002D20DA /* StatisticsViewController.h */,
+				FEAAB9661FC30E49002D20DA /* StatisticsViewController.m */,
 				FEC6F6271FCD9DBC00C072D9 /* TableViewController.h */,
 				FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */,
 				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
+				FED158E11FD1A972003E9E86 /* RouteCompletedStatus.h */,
+				FED158E21FD1A972003E9E86 /* RouteCompletedStatus.m */,
 				FEC6F62A1FCDA80400C072D9 /* RouteViewController.h */,
 				FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */,
 				FEC6F61F1FCD935B00C072D9 /* Route.h */,
+				FEC6F6201FCD935B00C072D9 /* Route.m */,
 				FEC6F6221FCD96F200C072D9 /* DataModel.h */,
 				FEC6F6231FCD96F200C072D9 /* DataModel.m */,
-				FEC6F6201FCD935B00C072D9 /* Route.m */,
 				FEAAB96B1FC30E49002D20DA /* Assets.xcassets */,
 				FEAAB96D1FC30E49002D20DA /* LaunchScreen.storyboard */,
 				FEAAB9701FC30E49002D20DA /* Info.plist */,
 				FEC6F6251FCD9A7300C072D9 /* Test image.jpg */,
+				FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */,
+				FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */,
 				FEAAB95C1FC30E49002D20DA /* Supporting Files */,
 			);
 			path = "Climbing Application";
@@ -277,7 +288,9 @@
 				FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */,
 				FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */,
 				FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */,
+				FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */,
 				FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */,
+				FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,10 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC6F6211FCD935B00C072D9 /* Route.m in Sources */,
-				FEAAB9671FC30E49002D20DA /* SecondViewController.m in Sources */,
+				FEAAB9671FC30E49002D20DA /* StatisticsViewController.m in Sources */,
 				FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */,
 				FEAAB9641FC30E49002D20DA /* DifficultyKeyViewController.m in Sources */,
 				FEAAB95E1FC30E49002D20DA /* main.m in Sources */,
+				FED158E31FD1A972003E9E86 /* RouteCompletedStatus.m in Sources */,
 				FEC6F6291FCD9DBC00C072D9 /* TableViewController.m in Sources */,
 				FEC6F62C1FCDA80400C072D9 /* RouteViewController.m in Sources */,
 				FEC6F6241FCD96F200C072D9 /* DataModel.m in Sources */,
