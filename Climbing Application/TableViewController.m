@@ -45,6 +45,27 @@
     return numberOfRows;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSString *sectionName;
+    
+    
+    switch (section)
+    {
+        case 0:
+            sectionName = NSLocalizedString(@"Green routes", @"Green routes");
+            break;
+        case 1:
+            sectionName = NSLocalizedString(@"myOtherSectionName", @"myOtherSectionName");
+            break;
+            // ...
+        default:
+            sectionName = @"";
+            break;
+    }
+    return sectionName;     //https://stackoverflow.com/questions/10505708/how-to-set-the-uitableview-section-title-programmatically-iphone-ipad
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RouteCell" forIndexPath:indexPath];
     

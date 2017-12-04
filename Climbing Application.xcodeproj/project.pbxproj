@@ -24,6 +24,15 @@
 		FEC6F6291FCD9DBC00C072D9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */; };
 		FEC6F62C1FCDA80400C072D9 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */; };
 		FED158E31FD1A972003E9E86 /* RouteCompletedStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FED158E21FD1A972003E9E86 /* RouteCompletedStatus.m */; };
+		FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */; };
+		FEE252981FD5B79000EDF7CC /* Orange_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */; };
+		FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE252991FD5B79500EDF7CC /* Grey_climbing_hold.jpg */; };
+		FEE252A01FD5B7A900EDF7CC /* Yellow_climbing_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2529B1FD5B7A900EDF7CC /* Yellow_climbing_hold.png */; };
+		FEE252A11FD5B7A900EDF7CC /* Pink_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE2529C1FD5B7A900EDF7CC /* Pink_climbing_hold.jpg */; };
+		FEE252A21FD5B7A900EDF7CC /* Blue_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE2529D1FD5B7A900EDF7CC /* Blue_climbing_hold.jpg */; };
+		FEE252A31FD5B7A900EDF7CC /* Black_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE2529E1FD5B7A900EDF7CC /* Black_climbing_hold.jpg */; };
+		FEE252A61FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE252A51FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg */; };
+		FEE252A81FD5C70100EDF7CC /* Back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE252A71FD5C70100EDF7CC /* Back_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +84,15 @@
 		FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
 		FED158E11FD1A972003E9E86 /* RouteCompletedStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteCompletedStatus.h; sourceTree = "<group>"; };
 		FED158E21FD1A972003E9E86 /* RouteCompletedStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteCompletedStatus.m; sourceTree = "<group>"; };
+		FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_climbing_hold.png; sourceTree = "<group>"; };
+		FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange_climbing_hold.jpg; sourceTree = "<group>"; };
+		FEE252991FD5B79500EDF7CC /* Grey_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grey_climbing_hold.jpg; sourceTree = "<group>"; };
+		FEE2529B1FD5B7A900EDF7CC /* Yellow_climbing_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow_climbing_hold.png; sourceTree = "<group>"; };
+		FEE2529C1FD5B7A900EDF7CC /* Pink_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pink_climbing_hold.jpg; sourceTree = "<group>"; };
+		FEE2529D1FD5B7A900EDF7CC /* Blue_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blue_climbing_hold.jpg; sourceTree = "<group>"; };
+		FEE2529E1FD5B7A900EDF7CC /* Black_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Black_climbing_hold.jpg; sourceTree = "<group>"; };
+		FEE252A51FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Purple_climbing_hold_2.jpg; sourceTree = "<group>"; };
+		FEE252A71FD5C70100EDF7CC /* Back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +166,15 @@
 				FEC6F6251FCD9A7300C072D9 /* Test image.jpg */,
 				FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */,
 				FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */,
+				FEE252A71FD5C70100EDF7CC /* Back_button.png */,
+				FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */,
+				FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */,
+				FEE252991FD5B79500EDF7CC /* Grey_climbing_hold.jpg */,
+				FEE2529B1FD5B7A900EDF7CC /* Yellow_climbing_hold.png */,
+				FEE2529C1FD5B7A900EDF7CC /* Pink_climbing_hold.jpg */,
+				FEE2529D1FD5B7A900EDF7CC /* Blue_climbing_hold.jpg */,
+				FEE2529E1FD5B7A900EDF7CC /* Black_climbing_hold.jpg */,
+				FEE252A51FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg */,
 				FEAAB95C1FC30E49002D20DA /* Supporting Files */,
 			);
 			path = "Climbing Application";
@@ -286,11 +313,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */,
+				FEE252A11FD5B7A900EDF7CC /* Pink_climbing_hold.jpg in Resources */,
+				FEE252A61FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg in Resources */,
 				FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */,
 				FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */,
+				FEE252A31FD5B7A900EDF7CC /* Black_climbing_hold.jpg in Resources */,
 				FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */,
 				FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */,
+				FEE252981FD5B79000EDF7CC /* Orange_climbing_hold.jpg in Resources */,
 				FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */,
+				FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */,
+				FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */,
+				FEE252A01FD5B7A900EDF7CC /* Yellow_climbing_hold.png in Resources */,
+				FEE252A21FD5B7A900EDF7CC /* Blue_climbing_hold.jpg in Resources */,
+				FEE252A81FD5C70100EDF7CC /* Back_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
