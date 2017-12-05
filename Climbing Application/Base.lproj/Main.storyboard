@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cOx-HE-IIW">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cOx-HE-IIW">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -222,12 +222,12 @@
                             <outlet property="delegate" destination="Ddy-2b-TOc" id="rT5-BY-yXx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Routes" id="tht-bC-GOO"/>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="tht-bC-GOO"/>
                     <navigationItem key="navigationItem" title="Route List" id="j1l-FZ-ihw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ney-hu-ixe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="-733"/>
+            <point key="canvasLocation" x="798" y="-734"/>
         </scene>
         <!--Route View Controller-->
         <scene sceneID="3vW-zJ-PuG">
@@ -297,6 +297,65 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rcj-Oz-CZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1568.8" y="-733.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yvO-jq-ocx">
+            <objects>
+                <viewController id="A9n-Zg-zFE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bXS-tR-c04"/>
+                        <viewControllerLayoutGuide type="bottom" id="jOz-xS-rkX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kj2-1q-vZP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qZK-ka-Y10">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="430" id="M32-e7-8WL"/>
+                                    <constraint firstAttribute="width" constant="375" id="R9k-1C-Kmo"/>
+                                </constraints>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 Kirkstall Industrial Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nL3-bO-jUx">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milford Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOV-NF-wbK">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leeds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gop-pT-hvd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LS4 2AZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5c-8e-a3U">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jOz-xS-rkX" firstAttribute="top" secondItem="kOV-NF-wbK" secondAttribute="bottom" constant="66" id="HBn-dw-GaQ"/>
+                            <constraint firstItem="Gop-pT-hvd" firstAttribute="leading" secondItem="kj2-1q-vZP" secondAttribute="leadingMargin" constant="73" id="Hqf-tw-cty"/>
+                            <constraint firstItem="qZK-ka-Y10" firstAttribute="centerX" secondItem="kj2-1q-vZP" secondAttribute="centerX" id="HvG-45-Avk"/>
+                            <constraint firstItem="jOz-xS-rkX" firstAttribute="top" secondItem="Gop-pT-hvd" secondAttribute="bottom" constant="37" id="JyI-4w-Jpq"/>
+                            <constraint firstItem="jOz-xS-rkX" firstAttribute="top" secondItem="F5c-8e-a3U" secondAttribute="bottom" constant="8" id="S9y-y5-pP3"/>
+                            <constraint firstItem="F5c-8e-a3U" firstAttribute="leading" secondItem="kj2-1q-vZP" secondAttribute="leadingMargin" constant="73" id="Uaz-ak-qxR"/>
+                            <constraint firstItem="jOz-xS-rkX" firstAttribute="top" secondItem="nL3-bO-jUx" secondAttribute="bottom" constant="95" id="WOL-3u-FWC"/>
+                            <constraint firstItem="nL3-bO-jUx" firstAttribute="leading" secondItem="kj2-1q-vZP" secondAttribute="leadingMargin" constant="73" id="fe5-mz-gwi"/>
+                            <constraint firstItem="kOV-NF-wbK" firstAttribute="leading" secondItem="kj2-1q-vZP" secondAttribute="leadingMargin" constant="73" id="ocr-ni-SC3"/>
+                            <constraint firstItem="jOz-xS-rkX" firstAttribute="top" secondItem="qZK-ka-Y10" secondAttribute="bottom" constant="124" id="zIb-5j-jMJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="yQR-qv-mBz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TjZ-vs-cMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797.60000000000002" y="1468.5157421289357"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="wg7-f3-ORb">
@@ -368,6 +427,7 @@
                         <segue destination="Ddy-2b-TOc" kind="relationship" relationship="viewControllers" id="9p6-eE-eUT"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="eBc-cB-gCn"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="iRJ-F3-VPe"/>
+                        <segue destination="A9n-Zg-zFE" kind="relationship" relationship="viewControllers" id="o3J-As-Aaj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

@@ -45,8 +45,10 @@
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender {
     if (sender.on) {
         self.RouteStatusLabel.text = @"Completed";
+        
     } else {
         self.RouteStatusLabel.text = @"Incomplete";
+        
     }
 }
 @end
