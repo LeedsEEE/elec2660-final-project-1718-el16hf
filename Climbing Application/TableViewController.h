@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "DataModel.h"
 #import "RouteViewController.h"
-
+#import "Route.h"
 
 @interface TableViewController : UITableViewController
 
 @property (strong, nonatomic) DataModel *data;
 
+@property (strong, nonatomic) Route *route;
 @end

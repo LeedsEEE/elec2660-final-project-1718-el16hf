@@ -14,17 +14,20 @@
 {
     self = [super init];
     if (self) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        BOOL complete = [defaults integerForKey:@"Complete"];
+        
         self.greenRoutes = [NSMutableArray array];
         Route *greenRoute1 = [[Route alloc] init];
         greenRoute1.routenumber = @"Route 1 - VB";
         greenRoute1.routelocation = @"Test image.jpg";
-        greenRoute1.routeCompletedStatus = false;
+        greenRoute1.routeCompletedStatus = complete;
         
         self.greenRoutes = [NSMutableArray array];
         Route *greenRoute2 = [[Route alloc] init];
         greenRoute2.routenumber = @"Route 2 - VB";
         greenRoute2.routelocation = @"Test image.jpg";
-        greenRoute2.routeCompletedStatus = true;
+        greenRoute2.routeCompletedStatus = complete;
         
         [self.greenRoutes addObject:greenRoute1]; //index 0
         [self.greenRoutes addObject:greenRoute2]; //index 1

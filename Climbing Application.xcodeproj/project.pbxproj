@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE71AA491FD6D7480068BF2E /* MyDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71AA481FD6D7480068BF2E /* MyDataClass.m */; };
 		FE71AA4C1FD6E8AE0068BF2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */; };
 		FE71AA4E1FD6E94F0068BF2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */; };
 		FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */; };
@@ -55,8 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE71AA471FD6D7480068BF2E /* MyDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataClass.h; sourceTree = "<group>"; };
-		FE71AA481FD6D7480068BF2E /* MyDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataClass.m; sourceTree = "<group>"; };
 		FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickIcon.png; sourceTree = "<group>"; };
@@ -174,14 +171,12 @@
 				FEC6F6201FCD935B00C072D9 /* Route.m */,
 				FEC6F6221FCD96F200C072D9 /* DataModel.h */,
 				FEC6F6231FCD96F200C072D9 /* DataModel.m */,
-				FE71AA471FD6D7480068BF2E /* MyDataClass.h */,
-				FE71AA481FD6D7480068BF2E /* MyDataClass.m */,
 				FEAAB96B1FC30E49002D20DA /* Assets.xcassets */,
 				FEAAB96D1FC30E49002D20DA /* LaunchScreen.storyboard */,
 				FEAAB9701FC30E49002D20DA /* Info.plist */,
 				FEC6F6251FCD9A7300C072D9 /* Test image.jpg */,
-				FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */,
 				FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */,
+				FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */,
 				FEE252A71FD5C70100EDF7CC /* Back_button.png */,
 				FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */,
 				FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */,
@@ -379,7 +374,6 @@
 				FEAAB95E1FC30E49002D20DA /* main.m in Sources */,
 				FEC6F6291FCD9DBC00C072D9 /* TableViewController.m in Sources */,
 				FEC6F62C1FCDA80400C072D9 /* RouteViewController.m in Sources */,
-				FE71AA491FD6D7480068BF2E /* MyDataClass.m in Sources */,
 				FEC6F6241FCD96F200C072D9 /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

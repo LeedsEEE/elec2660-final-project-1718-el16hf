@@ -17,7 +17,10 @@
 @property (weak, nonatomic) IBOutlet UISwitch *RouteSwitchSetStatus;
 @property (weak, nonatomic) IBOutlet UILabel *RouteStatusLabel;
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender;
-
+@property (nonatomic, strong) DataModel *dataModel;
 @property (strong, nonatomic) Route *route;
+@property NSInteger val;
+
+//@property (strong, nonatomic)NSString *key;
 
 @end

@@ -25,7 +25,9 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+   // [self.tableView ];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -75,7 +77,11 @@
         Route *tempRoute = [self.data.greenRoutes objectAtIndex:indexPath.row];
         cell.textLabel.text = tempRoute.routenumber;
         cell.detailTextLabel.text = @" ";
-        if (tempRoute.routeCompletedStatus == true) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        BOOL complete = [defaults boolForKey:tempRoute.routenumber];
+        [defaults setBool:complete forKey:@"Complete"];
+        [defaults synchronize];
+        if (complete == true) {
             cell.imageView.image = [UIImage imageNamed:@"TickIcon.png"];
         }
         else {

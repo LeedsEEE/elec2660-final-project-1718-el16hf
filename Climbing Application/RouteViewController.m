@@ -16,15 +16,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.dataModel = [[DataModel alloc] init];
     // Do any additional setup after loading the view.
     self.RouteNumberLabel.text = self.route.routenumber;
     self.RouteLocationImage.image = [UIImage imageNamed:self.route.routelocation ];
-    self.RouteSwitchSetStatus.on = self.route.routeCompletedStatus;
-    if (_RouteSwitchSetStatus.on) {
+    //self.RouteSwitchSetStatus.on = self.route.routeCompletedStatus;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setBool:true forKey:@"complete"];
+    [defaults synchronize];
+    NSLog(@"complete = %d",[defaults boolForKey:@"complete"]);
+    NSString *key = [NSString stringWithFormat:@"%@", self.route.routenumber];
+    BOOL switchon = [defaults integerForKey:key];
+    
+    if (switchon == 1) {
         self.RouteStatusLabel.text = @"Completed";
     } else {
         self.RouteStatusLabel.text = @"Incomplete";
     }
+    
+    
+    if (switchon == 1) {
+        self.RouteSwitchSetStatus.on = true;
+    }
+    else {
+        self.RouteSwitchSetStatus.on = false;
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,12 +61,25 @@
 */
 
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender {
+
     if (sender.on) {
         self.RouteStatusLabel.text = @"Completed";
-        
-    } else {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setBool:true forKey:[NSString stringWithFormat:@"%@",self.route.routenumber]];
+        [defaults synchronize];
+        self.val = 1;
+        }
+    else {
         self.RouteStatusLabel.text = @"Incomplete";
-        
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setBool:false forKey:[NSString stringWithFormat:@"%@",self.route.routenumber]];
+        [defaults synchronize];
+        self.val = 0;
+
     }
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *key = [NSString stringWithFormat:@"%@", self.route.routenumber];
+    [defaults setInteger:self.val forKey:key];
+    [defaults synchronize];
 }
 @end
