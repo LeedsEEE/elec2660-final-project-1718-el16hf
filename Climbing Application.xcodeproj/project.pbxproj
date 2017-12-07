@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE50751F1FD9465E00244146 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE50751E1FD9465E00244146 /* LocationViewController.m */; };
+		FE5AD37E1FD9652200FB5F9D /* GreenCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5AD37B1FD9652200FB5F9D /* GreenCircle.png */; };
+		FE5AD37F1FD9652200FB5F9D /* RedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5AD37C1FD9652200FB5F9D /* RedCircle.png */; };
+		FE5AD3801FD9652200FB5F9D /* YellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */; };
 		FE71AA4C1FD6E8AE0068BF2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */; };
 		FE71AA4E1FD6E94F0068BF2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */; };
 		FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */; };
@@ -54,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE50751D1FD9465E00244146 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ../LocationViewController.h; sourceTree = "<group>"; };
+		FE50751E1FD9465E00244146 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ../LocationViewController.m; sourceTree = "<group>"; };
+		FE5AD37B1FD9652200FB5F9D /* GreenCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenCircle.png; sourceTree = "<group>"; };
+		FE5AD37C1FD9652200FB5F9D /* RedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle.png; sourceTree = "<group>"; };
+		FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowCircle.png; sourceTree = "<group>"; };
 		FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickIcon.png; sourceTree = "<group>"; };
@@ -158,15 +167,17 @@
 			children = (
 				FEAAB95F1FC30E49002D20DA /* AppDelegate.h */,
 				FEAAB9601FC30E49002D20DA /* AppDelegate.m */,
+				FEC6F6271FCD9DBC00C072D9 /* TableViewController.h */,
+				FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */,
+				FEC6F62A1FCDA80400C072D9 /* RouteViewController.h */,
+				FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */,
 				FEAAB9621FC30E49002D20DA /* DifficultyKeyViewController.h */,
 				FEAAB9631FC30E49002D20DA /* DifficultyKeyViewController.m */,
 				FEAAB9651FC30E49002D20DA /* StatisticsViewController.h */,
 				FEAAB9661FC30E49002D20DA /* StatisticsViewController.m */,
-				FEC6F6271FCD9DBC00C072D9 /* TableViewController.h */,
-				FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */,
+				FE50751D1FD9465E00244146 /* LocationViewController.h */,
+				FE50751E1FD9465E00244146 /* LocationViewController.m */,
 				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
-				FEC6F62A1FCDA80400C072D9 /* RouteViewController.h */,
-				FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */,
 				FEC6F61F1FCD935B00C072D9 /* Route.h */,
 				FEC6F6201FCD935B00C072D9 /* Route.m */,
 				FEC6F6221FCD96F200C072D9 /* DataModel.h */,
@@ -186,6 +197,9 @@
 				FEE2529D1FD5B7A900EDF7CC /* Blue_climbing_hold.jpg */,
 				FEE2529E1FD5B7A900EDF7CC /* Black_climbing_hold.jpg */,
 				FEE252A51FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg */,
+				FE5AD37B1FD9652200FB5F9D /* GreenCircle.png */,
+				FE5AD37C1FD9652200FB5F9D /* RedCircle.png */,
+				FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */,
 				FEAAB95C1FC30E49002D20DA /* Supporting Files */,
 			);
 			path = "Climbing Application";
@@ -328,11 +342,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5AD37F1FD9652200FB5F9D /* RedCircle.png in Resources */,
 				FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */,
 				FEE252A11FD5B7A900EDF7CC /* Pink_climbing_hold.jpg in Resources */,
 				FEE252A61FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg in Resources */,
 				FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */,
 				FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */,
+				FE5AD37E1FD9652200FB5F9D /* GreenCircle.png in Resources */,
 				FEE252A31FD5B7A900EDF7CC /* Black_climbing_hold.jpg in Resources */,
 				FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */,
 				FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */,
@@ -341,6 +357,7 @@
 				FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */,
 				FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */,
 				FEE252A01FD5B7A900EDF7CC /* Yellow_climbing_hold.png in Resources */,
+				FE5AD3801FD9652200FB5F9D /* YellowCircle.png in Resources */,
 				FEE252A21FD5B7A900EDF7CC /* Blue_climbing_hold.jpg in Resources */,
 				FEE252A81FD5C70100EDF7CC /* Back_button.png in Resources */,
 			);
@@ -368,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC6F6211FCD935B00C072D9 /* Route.m in Sources */,
+				FE50751F1FD9465E00244146 /* LocationViewController.m in Sources */,
 				FEAAB9671FC30E49002D20DA /* StatisticsViewController.m in Sources */,
 				FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */,
 				FEAAB9641FC30E49002D20DA /* DifficultyKeyViewController.m in Sources */,
