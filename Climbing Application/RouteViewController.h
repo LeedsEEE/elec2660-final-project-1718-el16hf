@@ -14,8 +14,10 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *RouteNumberLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *RouteLocationImage;
+@property (weak, nonatomic) IBOutlet UIImageView *RouteDifficultyImage;
 @property (weak, nonatomic) IBOutlet UISwitch *RouteSwitchSetStatus;
 @property (weak, nonatomic) IBOutlet UILabel *RouteStatusLabel;
+
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender;
 @property (nonatomic, strong) DataModel *dataModel;
 @property (strong, nonatomic) Route *route;

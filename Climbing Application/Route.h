@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *routenumber;
 @property (nonatomic, strong) NSString *routelocation;
+@property (nonatomic, strong) NSString *routedifficulty;
 @property Boolean routeCompletedStatus;
 
 @end

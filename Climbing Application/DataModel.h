@@ -12,5 +12,8 @@
 @interface DataModel : NSObject
 
 @property (strong, nonatomic) NSMutableArray *greenRoutes;
+@property (strong, nonatomic) NSMutableArray *orangeRoutes;
+@property (strong, nonatomic) NSMutableArray *greyRoutes;
+@property (strong, nonatomic) NSMutableArray *yellowRoutes;
 
 @end
