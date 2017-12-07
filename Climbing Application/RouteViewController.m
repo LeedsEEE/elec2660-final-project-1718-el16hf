@@ -24,6 +24,11 @@
     //self.RouteSwitchSetStatus.on = self.route.routeCompletedStatus;
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSString *keyComments = [NSString stringWithFormat:@"%@comments", self.route.routenumber];
+    self.OutputUserComments.text = [defaults stringForKey:keyComments];
+    
+    
     [defaults setBool:true forKey:@"complete"];
     [defaults synchronize];
     NSLog(@"complete = %d",[defaults boolForKey:@"complete"]);
@@ -61,10 +66,12 @@
 }
 */
 
-- (IBAction)OutputUserComments:(id)sender {
-}
-
 - (IBAction)InputUserComments:(UITextField *)sender {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *keyComments = [NSString stringWithFormat:@"%@comments", self.route.routenumber];
+    [defaults setObject:sender.text forKey:keyComments];
+    [defaults synchronize];
+    
 }
 
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender {

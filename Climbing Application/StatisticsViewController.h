@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
-@interface StatisticsViewController : UIViewController
+@interface StatisticsViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIPickerView *picker;
+
 
 
 @end

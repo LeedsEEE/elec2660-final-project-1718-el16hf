@@ -27,12 +27,13 @@
 		FE814ED41FD9BC64004C1E1E /* Route 17 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC01FD9BC64004C1E1E /* Route 17 location.png */; };
 		FE814ED51FD9BC64004C1E1E /* Route 14 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC11FD9BC64004C1E1E /* Route 14 location.png */; };
 		FE814ED61FD9BC64004C1E1E /* Route 15 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC21FD9BC64004C1E1E /* Route 15 location.png */; };
-		FE814ED71FD9BC64004C1E1E /* Route 16 image.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC31FD9BC64004C1E1E /* Route 16 image.png */; };
+		FE814ED71FD9BC64004C1E1E /* Route 16 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC31FD9BC64004C1E1E /* Route 16 location.png */; };
 		FE814ED81FD9BC64004C1E1E /* Route 18 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC41FD9BC64004C1E1E /* Route 18 location.png */; };
 		FE814ED91FD9BC64004C1E1E /* Route 19 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC51FD9BC64004C1E1E /* Route 19 location.png */; };
 		FE814EDA1FD9BC64004C1E1E /* Route 9 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC61FD9BC64004C1E1E /* Route 9 location.png */; };
 		FE814EDB1FD9BC64004C1E1E /* Route 20 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC71FD9BC64004C1E1E /* Route 20 location.png */; };
 		FE814EDC1FD9BC64004C1E1E /* Route 10 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC81FD9BC64004C1E1E /* Route 10 location.png */; };
+		FE9003661FD9EC68001EBD32 /* RouteColour.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9003651FD9EC68001EBD32 /* RouteColour.m */; };
 		FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */; };
 		FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */; };
 		FEAAB95E1FC30E49002D20DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB95D1FC30E49002D20DA /* main.m */; };
@@ -49,6 +50,17 @@
 		FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEC6F6251FCD9A7300C072D9 /* Test image.jpg */; };
 		FEC6F6291FCD9DBC00C072D9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */; };
 		FEC6F62C1FCDA80400C072D9 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */; };
+		FEDE64171FD9D18C0054F57F /* Route 21 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64161FD9D18C0054F57F /* Route 21 location.png */; };
+		FEDE641B1FD9D1EF0054F57F /* Route 22 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64181FD9D1EF0054F57F /* Route 22 location.png */; };
+		FEDE641C1FD9D1EF0054F57F /* Route 23 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64191FD9D1EF0054F57F /* Route 23 location.png */; };
+		FEDE641D1FD9D1EF0054F57F /* Route 24 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE641A1FD9D1EF0054F57F /* Route 24 location.png */; };
+		FEDE64211FD9D3730054F57F /* Route 25 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE641E1FD9D3730054F57F /* Route 25 location.png */; };
+		FEDE64221FD9D3730054F57F /* Route 26 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE641F1FD9D3730054F57F /* Route 26 location.png */; };
+		FEDE64231FD9D3730054F57F /* Route 27 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64201FD9D3730054F57F /* Route 27 location.png */; };
+		FEDE64281FD9D6340054F57F /* Route 28 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64241FD9D6340054F57F /* Route 28 location.png */; };
+		FEDE64291FD9D6340054F57F /* Route 29 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64251FD9D6340054F57F /* Route 29 location.png */; };
+		FEDE642A1FD9D6340054F57F /* Route 30 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64261FD9D6340054F57F /* Route 30 location.png */; };
+		FEDE642B1FD9D6340054F57F /* Route 31 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE64271FD9D6340054F57F /* Route 31 location.png */; };
 		FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */; };
 		FEE252981FD5B79000EDF7CC /* Orange_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */; };
 		FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE252991FD5B79500EDF7CC /* Grey_climbing_hold.jpg */; };
@@ -99,12 +111,14 @@
 		FE814EC01FD9BC64004C1E1E /* Route 17 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 17 location.png"; sourceTree = "<group>"; };
 		FE814EC11FD9BC64004C1E1E /* Route 14 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 14 location.png"; sourceTree = "<group>"; };
 		FE814EC21FD9BC64004C1E1E /* Route 15 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 15 location.png"; sourceTree = "<group>"; };
-		FE814EC31FD9BC64004C1E1E /* Route 16 image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 16 image.png"; sourceTree = "<group>"; };
+		FE814EC31FD9BC64004C1E1E /* Route 16 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 16 location.png"; sourceTree = "<group>"; };
 		FE814EC41FD9BC64004C1E1E /* Route 18 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 18 location.png"; sourceTree = "<group>"; };
 		FE814EC51FD9BC64004C1E1E /* Route 19 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 19 location.png"; sourceTree = "<group>"; };
 		FE814EC61FD9BC64004C1E1E /* Route 9 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 9 location.png"; sourceTree = "<group>"; };
 		FE814EC71FD9BC64004C1E1E /* Route 20 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 20 location.png"; sourceTree = "<group>"; };
 		FE814EC81FD9BC64004C1E1E /* Route 10 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 10 location.png"; sourceTree = "<group>"; };
+		FE9003641FD9EC67001EBD32 /* RouteColour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteColour.h; sourceTree = "<group>"; };
+		FE9003651FD9EC68001EBD32 /* RouteColour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteColour.m; sourceTree = "<group>"; };
 		FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickIcon.png; sourceTree = "<group>"; };
 		FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTickIcon.png; sourceTree = "<group>"; };
 		FEAAB9591FC30E49002D20DA /* Climbing Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climbing Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +148,17 @@
 		FEC6F6281FCD9DBC00C072D9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		FEC6F62A1FCDA80400C072D9 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
 		FEC6F62B1FCDA80400C072D9 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		FEDE64161FD9D18C0054F57F /* Route 21 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 21 location.png"; sourceTree = "<group>"; };
+		FEDE64181FD9D1EF0054F57F /* Route 22 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 22 location.png"; sourceTree = "<group>"; };
+		FEDE64191FD9D1EF0054F57F /* Route 23 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 23 location.png"; sourceTree = "<group>"; };
+		FEDE641A1FD9D1EF0054F57F /* Route 24 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 24 location.png"; sourceTree = "<group>"; };
+		FEDE641E1FD9D3730054F57F /* Route 25 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 25 location.png"; sourceTree = "<group>"; };
+		FEDE641F1FD9D3730054F57F /* Route 26 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 26 location.png"; sourceTree = "<group>"; };
+		FEDE64201FD9D3730054F57F /* Route 27 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 27 location.png"; sourceTree = "<group>"; };
+		FEDE64241FD9D6340054F57F /* Route 28 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 28 location.png"; sourceTree = "<group>"; };
+		FEDE64251FD9D6340054F57F /* Route 29 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 29 location.png"; sourceTree = "<group>"; };
+		FEDE64261FD9D6340054F57F /* Route 30 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 30 location.png"; sourceTree = "<group>"; };
+		FEDE64271FD9D6340054F57F /* Route 31 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 31 location.png"; sourceTree = "<group>"; };
 		FEE252951FD5A52C00EDF7CC /* Green_climbing_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_climbing_hold.png; sourceTree = "<group>"; };
 		FEE252971FD5B79000EDF7CC /* Orange_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange_climbing_hold.jpg; sourceTree = "<group>"; };
 		FEE252991FD5B79500EDF7CC /* Grey_climbing_hold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grey_climbing_hold.jpg; sourceTree = "<group>"; };
@@ -220,6 +245,8 @@
 				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
 				FEC6F61F1FCD935B00C072D9 /* Route.h */,
 				FEC6F6201FCD935B00C072D9 /* Route.m */,
+				FE9003641FD9EC67001EBD32 /* RouteColour.h */,
+				FE9003651FD9EC68001EBD32 /* RouteColour.m */,
 				FEC6F6221FCD96F200C072D9 /* DataModel.h */,
 				FEC6F6231FCD96F200C072D9 /* DataModel.m */,
 				FEAAB96B1FC30E49002D20DA /* Assets.xcassets */,
@@ -248,18 +275,29 @@
 				FE814EBA1FD9BC64004C1E1E /* Route 6 location.png */,
 				FE814EBB1FD9BC64004C1E1E /* Route 7 location.png */,
 				FE814EBC1FD9BC64004C1E1E /* Route 8 location.png */,
+				FE814EC61FD9BC64004C1E1E /* Route 9 location.png */,
+				FE814EC81FD9BC64004C1E1E /* Route 10 location.png */,
 				FE814EBD1FD9BC64004C1E1E /* Route 11 location.png */,
 				FE814EBE1FD9BC64004C1E1E /* Route 12 location.png */,
 				FE814EBF1FD9BC64004C1E1E /* Route 13 location.png */,
-				FE814EC01FD9BC64004C1E1E /* Route 17 location.png */,
 				FE814EC11FD9BC64004C1E1E /* Route 14 location.png */,
 				FE814EC21FD9BC64004C1E1E /* Route 15 location.png */,
-				FE814EC31FD9BC64004C1E1E /* Route 16 image.png */,
+				FE814EC31FD9BC64004C1E1E /* Route 16 location.png */,
+				FE814EC01FD9BC64004C1E1E /* Route 17 location.png */,
 				FE814EC41FD9BC64004C1E1E /* Route 18 location.png */,
 				FE814EC51FD9BC64004C1E1E /* Route 19 location.png */,
-				FE814EC61FD9BC64004C1E1E /* Route 9 location.png */,
 				FE814EC71FD9BC64004C1E1E /* Route 20 location.png */,
-				FE814EC81FD9BC64004C1E1E /* Route 10 location.png */,
+				FEDE64161FD9D18C0054F57F /* Route 21 location.png */,
+				FEDE64181FD9D1EF0054F57F /* Route 22 location.png */,
+				FEDE64191FD9D1EF0054F57F /* Route 23 location.png */,
+				FEDE641A1FD9D1EF0054F57F /* Route 24 location.png */,
+				FEDE641E1FD9D3730054F57F /* Route 25 location.png */,
+				FEDE641F1FD9D3730054F57F /* Route 26 location.png */,
+				FEDE64201FD9D3730054F57F /* Route 27 location.png */,
+				FEDE64241FD9D6340054F57F /* Route 28 location.png */,
+				FEDE64251FD9D6340054F57F /* Route 29 location.png */,
+				FEDE64261FD9D6340054F57F /* Route 30 location.png */,
+				FEDE64271FD9D6340054F57F /* Route 31 location.png */,
 				FEAAB95C1FC30E49002D20DA /* Supporting Files */,
 			);
 			path = "Climbing Application";
@@ -409,6 +447,8 @@
 				FEE252A11FD5B7A900EDF7CC /* Pink_climbing_hold.jpg in Resources */,
 				FEE252A61FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg in Resources */,
 				FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */,
+				FEDE641C1FD9D1EF0054F57F /* Route 23 location.png in Resources */,
+				FEDE64221FD9D3730054F57F /* Route 26 location.png in Resources */,
 				FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */,
 				FE5AD37E1FD9652200FB5F9D /* GreenCircle.png in Resources */,
 				FE814ED31FD9BC64004C1E1E /* Route 13 location.png in Resources */,
@@ -417,19 +457,26 @@
 				FE814EC91FD9BC64004C1E1E /* Route 1 location.png in Resources */,
 				FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */,
 				FE814ED21FD9BC64004C1E1E /* Route 12 location.png in Resources */,
+				FEDE64211FD9D3730054F57F /* Route 25 location.png in Resources */,
+				FEDE64281FD9D6340054F57F /* Route 28 location.png in Resources */,
+				FEDE642A1FD9D6340054F57F /* Route 30 location.png in Resources */,
 				FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */,
 				FE814ECB1FD9BC64004C1E1E /* Route 3 location.png in Resources */,
 				FE814ECE1FD9BC64004C1E1E /* Route 6 location.png in Resources */,
 				FEE252981FD5B79000EDF7CC /* Orange_climbing_hold.jpg in Resources */,
+				FEDE641D1FD9D1EF0054F57F /* Route 24 location.png in Resources */,
+				FEDE64171FD9D18C0054F57F /* Route 21 location.png in Resources */,
 				FE814EDB1FD9BC64004C1E1E /* Route 20 location.png in Resources */,
 				FE814ED01FD9BC64004C1E1E /* Route 8 location.png in Resources */,
 				FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */,
-				FE814ED71FD9BC64004C1E1E /* Route 16 image.png in Resources */,
+				FE814ED71FD9BC64004C1E1E /* Route 16 location.png in Resources */,
 				FE814ED11FD9BC64004C1E1E /* Route 11 location.png in Resources */,
 				FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */,
 				FE814ED81FD9BC64004C1E1E /* Route 18 location.png in Resources */,
 				FE814ED91FD9BC64004C1E1E /* Route 19 location.png in Resources */,
 				FE814ED61FD9BC64004C1E1E /* Route 15 location.png in Resources */,
+				FEDE64291FD9D6340054F57F /* Route 29 location.png in Resources */,
+				FEDE64231FD9D3730054F57F /* Route 27 location.png in Resources */,
 				FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */,
 				FE814ED41FD9BC64004C1E1E /* Route 17 location.png in Resources */,
 				FEE252A01FD5B7A900EDF7CC /* Yellow_climbing_hold.png in Resources */,
@@ -437,8 +484,10 @@
 				FEE252A21FD5B7A900EDF7CC /* Blue_climbing_hold.jpg in Resources */,
 				FE814ECD1FD9BC64004C1E1E /* Route 5 location.png in Resources */,
 				FE814EDA1FD9BC64004C1E1E /* Route 9 location.png in Resources */,
+				FEDE641B1FD9D1EF0054F57F /* Route 22 location.png in Resources */,
 				FE814ECF1FD9BC64004C1E1E /* Route 7 location.png in Resources */,
 				FEE252A81FD5C70100EDF7CC /* Back_button.png in Resources */,
+				FEDE642B1FD9D6340054F57F /* Route 31 location.png in Resources */,
 				FE814ECC1FD9BC64004C1E1E /* Route 4 location.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC6F6211FCD935B00C072D9 /* Route.m in Sources */,
+				FE9003661FD9EC68001EBD32 /* RouteColour.m in Sources */,
 				FE50751F1FD9465E00244146 /* LocationViewController.m in Sources */,
 				FEAAB9671FC30E49002D20DA /* StatisticsViewController.m in Sources */,
 				FEAAB9611FC30E49002D20DA /* AppDelegate.m in Sources */,
