@@ -17,7 +17,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *RouteDifficultyImage;
 @property (weak, nonatomic) IBOutlet UISwitch *RouteSwitchSetStatus;
 @property (weak, nonatomic) IBOutlet UILabel *RouteStatusLabel;
+@property (weak, nonatomic) IBOutlet UITextField *OutputUserComments;
 
+- (IBAction)InputUserComments:(UITextField *)sender;
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender;
 @property (nonatomic, strong) DataModel *dataModel;
 @property (strong, nonatomic) Route *route;

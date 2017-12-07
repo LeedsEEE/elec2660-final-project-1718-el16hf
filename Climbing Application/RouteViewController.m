@@ -19,6 +19,7 @@
     self.dataModel = [[DataModel alloc] init];
     // Do any additional setup after loading the view.
     self.RouteNumberLabel.text = self.route.routenumber;
+    self.RouteDifficultyImage.image = [UIImage imageNamed:self.route.routedifficulty];
     self.RouteLocationImage.image = [UIImage imageNamed:self.route.routelocation ];
     //self.RouteSwitchSetStatus.on = self.route.routeCompletedStatus;
     
@@ -59,6 +60,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)OutputUserComments:(id)sender {
+}
+
+- (IBAction)InputUserComments:(UITextField *)sender {
+}
 
 - (IBAction)RouteStatusSwitch:(UISwitch *)sender {
 

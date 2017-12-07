@@ -13,6 +13,26 @@
 		FE5AD3801FD9652200FB5F9D /* YellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */; };
 		FE71AA4C1FD6E8AE0068BF2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */; };
 		FE71AA4E1FD6E94F0068BF2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */; };
+		FE814EC91FD9BC64004C1E1E /* Route 1 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EB51FD9BC64004C1E1E /* Route 1 location.png */; };
+		FE814ECA1FD9BC64004C1E1E /* Route 2 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EB61FD9BC64004C1E1E /* Route 2 location.png */; };
+		FE814ECB1FD9BC64004C1E1E /* Route 3 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EB71FD9BC64004C1E1E /* Route 3 location.png */; };
+		FE814ECC1FD9BC64004C1E1E /* Route 4 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EB81FD9BC64004C1E1E /* Route 4 location.png */; };
+		FE814ECD1FD9BC64004C1E1E /* Route 5 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EB91FD9BC64004C1E1E /* Route 5 location.png */; };
+		FE814ECE1FD9BC64004C1E1E /* Route 6 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBA1FD9BC64004C1E1E /* Route 6 location.png */; };
+		FE814ECF1FD9BC64004C1E1E /* Route 7 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBB1FD9BC64004C1E1E /* Route 7 location.png */; };
+		FE814ED01FD9BC64004C1E1E /* Route 8 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBC1FD9BC64004C1E1E /* Route 8 location.png */; };
+		FE814ED11FD9BC64004C1E1E /* Route 11 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBD1FD9BC64004C1E1E /* Route 11 location.png */; };
+		FE814ED21FD9BC64004C1E1E /* Route 12 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBE1FD9BC64004C1E1E /* Route 12 location.png */; };
+		FE814ED31FD9BC64004C1E1E /* Route 13 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EBF1FD9BC64004C1E1E /* Route 13 location.png */; };
+		FE814ED41FD9BC64004C1E1E /* Route 17 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC01FD9BC64004C1E1E /* Route 17 location.png */; };
+		FE814ED51FD9BC64004C1E1E /* Route 14 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC11FD9BC64004C1E1E /* Route 14 location.png */; };
+		FE814ED61FD9BC64004C1E1E /* Route 15 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC21FD9BC64004C1E1E /* Route 15 location.png */; };
+		FE814ED71FD9BC64004C1E1E /* Route 16 image.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC31FD9BC64004C1E1E /* Route 16 image.png */; };
+		FE814ED81FD9BC64004C1E1E /* Route 18 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC41FD9BC64004C1E1E /* Route 18 location.png */; };
+		FE814ED91FD9BC64004C1E1E /* Route 19 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC51FD9BC64004C1E1E /* Route 19 location.png */; };
+		FE814EDA1FD9BC64004C1E1E /* Route 9 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC61FD9BC64004C1E1E /* Route 9 location.png */; };
+		FE814EDB1FD9BC64004C1E1E /* Route 20 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC71FD9BC64004C1E1E /* Route 20 location.png */; };
+		FE814EDC1FD9BC64004C1E1E /* Route 10 location.png in Resources */ = {isa = PBXBuildFile; fileRef = FE814EC81FD9BC64004C1E1E /* Route 10 location.png */; };
 		FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */; };
 		FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */; };
 		FEAAB95E1FC30E49002D20DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB95D1FC30E49002D20DA /* main.m */; };
@@ -65,6 +85,26 @@
 		FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowCircle.png; sourceTree = "<group>"; };
 		FE71AA4B1FD6E8AE0068BF2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FE71AA4D1FD6E94F0068BF2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FE814EB51FD9BC64004C1E1E /* Route 1 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 1 location.png"; sourceTree = "<group>"; };
+		FE814EB61FD9BC64004C1E1E /* Route 2 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 2 location.png"; sourceTree = "<group>"; };
+		FE814EB71FD9BC64004C1E1E /* Route 3 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 3 location.png"; sourceTree = "<group>"; };
+		FE814EB81FD9BC64004C1E1E /* Route 4 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 4 location.png"; sourceTree = "<group>"; };
+		FE814EB91FD9BC64004C1E1E /* Route 5 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 5 location.png"; sourceTree = "<group>"; };
+		FE814EBA1FD9BC64004C1E1E /* Route 6 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 6 location.png"; sourceTree = "<group>"; };
+		FE814EBB1FD9BC64004C1E1E /* Route 7 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 7 location.png"; sourceTree = "<group>"; };
+		FE814EBC1FD9BC64004C1E1E /* Route 8 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 8 location.png"; sourceTree = "<group>"; };
+		FE814EBD1FD9BC64004C1E1E /* Route 11 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 11 location.png"; sourceTree = "<group>"; };
+		FE814EBE1FD9BC64004C1E1E /* Route 12 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 12 location.png"; sourceTree = "<group>"; };
+		FE814EBF1FD9BC64004C1E1E /* Route 13 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 13 location.png"; sourceTree = "<group>"; };
+		FE814EC01FD9BC64004C1E1E /* Route 17 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 17 location.png"; sourceTree = "<group>"; };
+		FE814EC11FD9BC64004C1E1E /* Route 14 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 14 location.png"; sourceTree = "<group>"; };
+		FE814EC21FD9BC64004C1E1E /* Route 15 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 15 location.png"; sourceTree = "<group>"; };
+		FE814EC31FD9BC64004C1E1E /* Route 16 image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 16 image.png"; sourceTree = "<group>"; };
+		FE814EC41FD9BC64004C1E1E /* Route 18 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 18 location.png"; sourceTree = "<group>"; };
+		FE814EC51FD9BC64004C1E1E /* Route 19 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 19 location.png"; sourceTree = "<group>"; };
+		FE814EC61FD9BC64004C1E1E /* Route 9 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 9 location.png"; sourceTree = "<group>"; };
+		FE814EC71FD9BC64004C1E1E /* Route 20 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 20 location.png"; sourceTree = "<group>"; };
+		FE814EC81FD9BC64004C1E1E /* Route 10 location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route 10 location.png"; sourceTree = "<group>"; };
 		FEA31D8A1FD1BA980095D2D2 /* TickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickIcon.png; sourceTree = "<group>"; };
 		FEA31D8C1FD1BEA50095D2D2 /* WhiteTickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTickIcon.png; sourceTree = "<group>"; };
 		FEAAB9591FC30E49002D20DA /* Climbing Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climbing Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +240,26 @@
 				FE5AD37B1FD9652200FB5F9D /* GreenCircle.png */,
 				FE5AD37C1FD9652200FB5F9D /* RedCircle.png */,
 				FE5AD37D1FD9652200FB5F9D /* YellowCircle.png */,
+				FE814EB51FD9BC64004C1E1E /* Route 1 location.png */,
+				FE814EB61FD9BC64004C1E1E /* Route 2 location.png */,
+				FE814EB71FD9BC64004C1E1E /* Route 3 location.png */,
+				FE814EB81FD9BC64004C1E1E /* Route 4 location.png */,
+				FE814EB91FD9BC64004C1E1E /* Route 5 location.png */,
+				FE814EBA1FD9BC64004C1E1E /* Route 6 location.png */,
+				FE814EBB1FD9BC64004C1E1E /* Route 7 location.png */,
+				FE814EBC1FD9BC64004C1E1E /* Route 8 location.png */,
+				FE814EBD1FD9BC64004C1E1E /* Route 11 location.png */,
+				FE814EBE1FD9BC64004C1E1E /* Route 12 location.png */,
+				FE814EBF1FD9BC64004C1E1E /* Route 13 location.png */,
+				FE814EC01FD9BC64004C1E1E /* Route 17 location.png */,
+				FE814EC11FD9BC64004C1E1E /* Route 14 location.png */,
+				FE814EC21FD9BC64004C1E1E /* Route 15 location.png */,
+				FE814EC31FD9BC64004C1E1E /* Route 16 image.png */,
+				FE814EC41FD9BC64004C1E1E /* Route 18 location.png */,
+				FE814EC51FD9BC64004C1E1E /* Route 19 location.png */,
+				FE814EC61FD9BC64004C1E1E /* Route 9 location.png */,
+				FE814EC71FD9BC64004C1E1E /* Route 20 location.png */,
+				FE814EC81FD9BC64004C1E1E /* Route 10 location.png */,
 				FEAAB95C1FC30E49002D20DA /* Supporting Files */,
 			);
 			path = "Climbing Application";
@@ -343,23 +403,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE5AD37F1FD9652200FB5F9D /* RedCircle.png in Resources */,
+				FE814ECA1FD9BC64004C1E1E /* Route 2 location.png in Resources */,
 				FEC6F6261FCD9A7300C072D9 /* Test image.jpg in Resources */,
+				FE814EDC1FD9BC64004C1E1E /* Route 10 location.png in Resources */,
 				FEE252A11FD5B7A900EDF7CC /* Pink_climbing_hold.jpg in Resources */,
 				FEE252A61FD5B94500EDF7CC /* Purple_climbing_hold_2.jpg in Resources */,
 				FEAAB96F1FC30E49002D20DA /* LaunchScreen.storyboard in Resources */,
 				FEAAB96C1FC30E49002D20DA /* Assets.xcassets in Resources */,
 				FE5AD37E1FD9652200FB5F9D /* GreenCircle.png in Resources */,
+				FE814ED31FD9BC64004C1E1E /* Route 13 location.png in Resources */,
 				FEE252A31FD5B7A900EDF7CC /* Black_climbing_hold.jpg in Resources */,
+				FE814ED51FD9BC64004C1E1E /* Route 14 location.png in Resources */,
+				FE814EC91FD9BC64004C1E1E /* Route 1 location.png in Resources */,
 				FEA31D8B1FD1BA980095D2D2 /* TickIcon.png in Resources */,
+				FE814ED21FD9BC64004C1E1E /* Route 12 location.png in Resources */,
 				FEAAB96A1FC30E49002D20DA /* Main.storyboard in Resources */,
+				FE814ECB1FD9BC64004C1E1E /* Route 3 location.png in Resources */,
+				FE814ECE1FD9BC64004C1E1E /* Route 6 location.png in Resources */,
 				FEE252981FD5B79000EDF7CC /* Orange_climbing_hold.jpg in Resources */,
+				FE814EDB1FD9BC64004C1E1E /* Route 20 location.png in Resources */,
+				FE814ED01FD9BC64004C1E1E /* Route 8 location.png in Resources */,
 				FEA31D8D1FD1BEA50095D2D2 /* WhiteTickIcon.png in Resources */,
+				FE814ED71FD9BC64004C1E1E /* Route 16 image.png in Resources */,
+				FE814ED11FD9BC64004C1E1E /* Route 11 location.png in Resources */,
 				FEE252961FD5A52C00EDF7CC /* Green_climbing_hold.png in Resources */,
+				FE814ED81FD9BC64004C1E1E /* Route 18 location.png in Resources */,
+				FE814ED91FD9BC64004C1E1E /* Route 19 location.png in Resources */,
+				FE814ED61FD9BC64004C1E1E /* Route 15 location.png in Resources */,
 				FEE2529A1FD5B79500EDF7CC /* Grey_climbing_hold.jpg in Resources */,
+				FE814ED41FD9BC64004C1E1E /* Route 17 location.png in Resources */,
 				FEE252A01FD5B7A900EDF7CC /* Yellow_climbing_hold.png in Resources */,
 				FE5AD3801FD9652200FB5F9D /* YellowCircle.png in Resources */,
 				FEE252A21FD5B7A900EDF7CC /* Blue_climbing_hold.jpg in Resources */,
+				FE814ECD1FD9BC64004C1E1E /* Route 5 location.png in Resources */,
+				FE814EDA1FD9BC64004C1E1E /* Route 9 location.png in Resources */,
+				FE814ECF1FD9BC64004C1E1E /* Route 7 location.png in Resources */,
 				FEE252A81FD5C70100EDF7CC /* Back_button.png in Resources */,
+				FE814ECC1FD9BC64004C1E1E /* Route 4 location.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

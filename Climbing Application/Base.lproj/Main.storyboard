@@ -303,14 +303,14 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bdt-nT-sSr">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="0BS-Ev-jlJ"/>
-                                    <constraint firstAttribute="width" constant="60" id="v2b-zC-pYU"/>
+                                    <constraint firstAttribute="height" constant="50" id="0BS-Ev-jlJ"/>
+                                    <constraint firstAttribute="width" constant="50" id="v2b-zC-pYU"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-NF-SJ3">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="241" id="3yz-FP-Uvt"/>
-                                    <constraint firstAttribute="height" constant="187" id="dZD-c0-4V6"/>
+                                    <constraint firstAttribute="width" constant="345" id="3yz-FP-Uvt"/>
+                                    <constraint firstAttribute="height" constant="200" id="dZD-c0-4V6"/>
                                 </constraints>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GRR-3v-Gak">
@@ -323,11 +323,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="line" placeholder="Comments on route" textAlignment="natural" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-Tt-HBp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="356" id="WL0-nD-60t"/>
+                                    <constraint firstAttribute="height" constant="153" id="ZKX-9h-jrN"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="InputUserComments:" destination="Mw5-ld-Svg" eventType="editingDidEnd" id="dHf-OS-9XM"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jL5-Rf-qCD" firstAttribute="top" secondItem="0qD-FC-cMC" secondAttribute="bottom" constant="16" id="17m-jF-w93"/>
                             <constraint firstItem="2e0-Hu-pqU" firstAttribute="leading" secondItem="xEs-oZ-LqJ" secondAttribute="leadingMargin" constant="70" id="9MY-5D-nOS"/>
+                            <constraint firstItem="QG9-cA-MoS" firstAttribute="top" secondItem="Sf0-Tt-HBp" secondAttribute="bottom" constant="33" id="Lzb-si-ae5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GRR-3v-Gak" secondAttribute="trailing" constant="70" id="TWb-Lf-6va"/>
                             <constraint firstItem="Vaq-BH-gjq" firstAttribute="leading" secondItem="xEs-oZ-LqJ" secondAttribute="leadingMargin" constant="18" id="U4E-wv-wMQ"/>
                             <constraint firstItem="bdt-nT-sSr" firstAttribute="centerX" secondItem="xEs-oZ-LqJ" secondAttribute="centerX" id="VWf-Am-Nq7"/>
@@ -337,10 +350,12 @@
                             <constraint firstItem="GRR-3v-Gak" firstAttribute="top" secondItem="HR0-NF-SJ3" secondAttribute="bottom" constant="18.5" id="mbe-7X-wJJ"/>
                             <constraint firstItem="HR0-NF-SJ3" firstAttribute="centerX" secondItem="xEs-oZ-LqJ" secondAttribute="centerX" id="mxb-Y3-HCE"/>
                             <constraint firstItem="bdt-nT-sSr" firstAttribute="top" secondItem="jL5-Rf-qCD" secondAttribute="bottom" constant="8" id="oif-3x-zcE"/>
+                            <constraint firstItem="Sf0-Tt-HBp" firstAttribute="centerX" secondItem="xEs-oZ-LqJ" secondAttribute="centerX" id="yMN-Lb-H4J"/>
                             <constraint firstItem="Vaq-BH-gjq" firstAttribute="top" secondItem="0qD-FC-cMC" secondAttribute="bottom" id="zwU-e2-uhT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="OutputUserComments" destination="Sf0-Tt-HBp" id="KJm-bU-2gZ"/>
                         <outlet property="RouteDifficultyImage" destination="bdt-nT-sSr" id="Fi2-xY-heR"/>
                         <outlet property="RouteLocationImage" destination="HR0-NF-SJ3" id="ACA-sw-3Fz"/>
                         <outlet property="RouteNumberLabel" destination="jL5-Rf-qCD" id="t9i-Mt-mxN"/>
@@ -350,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rcj-Oz-CZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1568.8" y="-733.5832083958021"/>
+            <point key="canvasLocation" x="1568.1159420289857" y="-733.69565217391312"/>
         </scene>
         <!--Location View Controller-->
         <scene sceneID="yvO-jq-ocx">
