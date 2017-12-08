@@ -230,6 +230,7 @@
 		FEAAB95B1FC30E49002D20DA /* Climbing Application */ = {
 			isa = PBXGroup;
 			children = (
+				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
 				FEAAB95F1FC30E49002D20DA /* AppDelegate.h */,
 				FEAAB9601FC30E49002D20DA /* AppDelegate.m */,
 				FEC6F6271FCD9DBC00C072D9 /* TableViewController.h */,
@@ -242,7 +243,6 @@
 				FEAAB9661FC30E49002D20DA /* StatisticsViewController.m */,
 				FE50751D1FD9465E00244146 /* LocationViewController.h */,
 				FE50751E1FD9465E00244146 /* LocationViewController.m */,
-				FEAAB9681FC30E49002D20DA /* Main.storyboard */,
 				FEC6F61F1FCD935B00C072D9 /* Route.h */,
 				FEC6F6201FCD935B00C072D9 /* Route.m */,
 				FE9003641FD9EC67001EBD32 /* RouteColour.h */,
